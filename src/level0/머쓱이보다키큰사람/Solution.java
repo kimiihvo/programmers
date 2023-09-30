@@ -1,7 +1,5 @@
 package level0.머쓱이보다키큰사람;
 
-import java.util.*;
-
 class Solution {
     public int solution(int[] array, int height) {
 
