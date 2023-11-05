@@ -1,0 +1,7 @@
+SELECT PT_NAME, PT_NO, GEND_CD, AGE, NVL(TLNO, 'NONE')
+
+FROM PATIENT 
+
+    WHERE age < 13 AND GEND_CD = 'W'
+
+    ORDER BY age desc, pt_name
