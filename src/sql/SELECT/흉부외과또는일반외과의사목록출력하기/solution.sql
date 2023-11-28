@@ -1,0 +1,7 @@
+SELECT DR_NAME,DR_ID,MCDP_CD, to_char(HIRE_YMD, 'yyyy-mm-dd')
+
+FROM DOCTOR 
+
+    WHERE MCDP_CD = 'CS' OR MCDP_CD = 'GS'
+
+    ORDER BY HIRE_YMD desc, DR_NAME
